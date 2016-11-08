@@ -4,13 +4,10 @@
 
 html {
   box-sizing: border-box;
+  font: normal 100%/1.3 "NeueHaasGrotesk Light", sans-serif;
 }
 
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-body {
-  font: 16px/22px "NeueHaasGrotesk Light", sans-serif;
 }
