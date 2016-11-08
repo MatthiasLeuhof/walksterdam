@@ -10,3 +10,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: "NeueHaasGrotesk Regular", sans-serif;
+}
