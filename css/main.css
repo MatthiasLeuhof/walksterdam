@@ -88,5 +88,14 @@ header a {
 }
 
 .map {
-  width: 100vw;
+  width: 100%;
+}
+
+ol img {
+  width: 100%;
+}
+
+.hero dt {
+  display: none;
+  visibility: hidden;
 }
