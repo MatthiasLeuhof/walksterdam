@@ -178,23 +178,30 @@ Map overview
 Walk overview
 ----------------------------------------------------------------*/
 
-ol img {
-  width: 100%;
-}
-
-ol a {
+.overview-list-item a {
   color: #f7f7f7;
   font-size: 3em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.walk-choice {
-  transform: translateY(calc(-100vw / 16 * 9));
-  z-index: 2;
-  text-align: right;
+.overview-list-item {
+  position: relative;
+  width: 100vw;
+  height: calc( ( 100vw / 16 ) * 9 );
+  margin-bottom: 1em;
 }
 
+.overview-list-item h3 {
+  position: absolute;
+  left: 1em;
+  top: 2em;
+}
+
+.overview-list-item img {
+  position: absolute;
+  width: 100vw;
+}
 
 /*----------------------------------------------------------------
 Detail view
