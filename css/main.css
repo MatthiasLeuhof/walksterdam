@@ -162,6 +162,13 @@ Home
 Map overview
 ----------------------------------------------------------------*/
 
+.overview {
+  font-family: "NeueHaasGrotesk Medium";
+  font-size: 2em;
+  text-align: center;
+  padding-top: 22px;
+}
+
 .map {
   width: 100%;
 }
