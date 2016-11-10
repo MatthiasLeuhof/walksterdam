@@ -224,6 +224,13 @@ dt {
   margin-bottom: calc(67px + 1rem);
 }
 
+.highlights {
+  list-style-type: square;
+  padding-left: 4em;
+  font: normal 1.1em/33px "NeueHaasGrotesk Regular";
+  margin-bottom: 1em;
+}
+
 /*----------------------------------------------------------------
 Buttons
 ----------------------------------------------------------------*/
