@@ -170,8 +170,44 @@ Map overview
   padding-top: 22px;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .map {
   width: 100%;
+}
+
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50% 50% 0;
+  background-color: #c0392b;
+  text-align: center;
+  font: normal 1.3em/40px "AvenirNext Bold";
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.icon-level-0 {
+  left: 48%;
+  bottom: 35%;
+}
+
+.icon-level-1 {
+  left: 40%;
+  bottom: 77%;
+}
+
+.icon-level-2 {
+  left: 52%;
+  bottom: 71%;
+}
+
+.icon-level-3 {
+  left: 40%;
+  bottom: 20%;
 }
 
 /*----------------------------------------------------------------
@@ -194,8 +230,10 @@ Walk overview
 
 .overview-list-item h3 {
   position: absolute;
-  left: 1em;
-  top: 2em;
+  left: 10%;
+  top: 10%;
+  border-bottom: 2px solid #f7f7f7;
+  border-top: 2px solid #c0392b;
 }
 
 .overview-list-item img {
@@ -261,6 +299,7 @@ Buttons
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 1em;
 }
 
 .btn-detail {
