@@ -210,6 +210,64 @@ Map overview
   bottom: 20%;
 }
 
+.dog {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  left: 2%;
+  bottom: 16%;
+  animation: walk-the-dog 120s infinite linear;
+}
+
+@keyframes walk-the-dog {
+
+  5% {
+    transform: translate(-2vw, -2vw);
+  }
+
+  30% {
+    transform: translate(12vw, -9vw);
+  }
+
+  35% {
+    transform: translate(16vw, -13vw);
+  }
+
+  45% {
+    transform: translate(22vw, -5vw);
+  }
+
+  55% {
+    transform: translate(30vw, -3vw);
+  }
+
+  60% {
+    transform: translate(30vw, -1vw);
+  }
+
+  70% {
+    transform: translate(40vw, 0vw);
+  }
+
+  75% {
+    transform: translate(42vw, 1vw);
+  }
+
+  85% {
+    transform: translate(32vw, 5vw);
+  }
+
+  95% {
+    transform: translate(35vw, 19vw);
+  }
+
+  100% {
+    transform: translate(40vw, 16vw);
+  }
+}
+
 /*----------------------------------------------------------------
 Walk overview
 ----------------------------------------------------------------*/
