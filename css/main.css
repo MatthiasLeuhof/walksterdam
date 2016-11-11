@@ -215,7 +215,8 @@ Map overview
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: black;
+  background: url(../images/map-overview/bear-icon-2.svg);
+  background-size: 20px 20px;
   left: 2%;
   bottom: 16%;
   animation: walk-the-dog 120s infinite linear;
