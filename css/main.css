@@ -69,6 +69,11 @@ body {
   background-color: #f7f7f7;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 p,
 h2,
 h3 {
@@ -112,12 +117,13 @@ header h1 {
 
 header li {
   display: inline-block;
-  padding: 1em;
+	padding: 1em 0;
 }
 
 header a {
   text-decoration: none;
   color: #f7f7f7;
+	padding: 1em;
 }
 
 .active {
