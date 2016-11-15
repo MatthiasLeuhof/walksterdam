@@ -218,10 +218,10 @@ Map overview
 
 .dog {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background-color: black;
+  background-image: url("../images/map-overview/dog-icon.svg");
   left: 2%;
   bottom: 16%;
   animation: walk-the-dog 120s infinite linear;
@@ -305,6 +305,12 @@ Walk overview
   width: 100vw;
 }
 
+.percentage-walked {
+	position: absolute;
+	left: 10%;
+	bottom: 10%;
+}
+
 /*----------------------------------------------------------------
 Detail view
 ----------------------------------------------------------------*/
@@ -338,6 +344,24 @@ dt {
   padding-left: 4em;
   font: normal 1.1em/33px "NeueHaasGrotesk Regular";
   margin-bottom: 1em;
+}
+
+.detail-page-map {
+}
+
+.walk-location {
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.reward {
+  width: 50vw;
+  height: 50vw;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 }
 
 /*----------------------------------------------------------------
@@ -374,8 +398,4 @@ Buttons
   -webkit-box-shadow: 0px 4px 32px -6px rgba(0,0,0,0.5);
      -moz-box-shadow: 0px 4px 32px -6px rgba(0,0,0,0.5);
           box-shadow: 0px 4px 32px -6px rgba(0,0,0,0.5);
-}
-
-.walk-location {
-  width: 100%;
 }
