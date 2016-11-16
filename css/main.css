@@ -176,6 +176,10 @@ Map overview
   padding-top: 22px;
 }
 
+#walk-the-dog {
+  margin-top: 1.5em;
+}
+
 .wrapper {
   position: relative;
 }
@@ -213,7 +217,7 @@ Map overview
 
 .icon-level-3 {
   left: 40%;
-  bottom: 20%;
+  bottom: 18%;
 }
 
 .dog {
