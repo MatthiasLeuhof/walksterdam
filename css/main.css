@@ -323,8 +323,9 @@ Walk overview
 
 .percentage-walked {
 	position: absolute;
-	left: 10%;
+	left: 70%;
 	bottom: 10%;
+  font-family: "AvenirNext Bold";
 }
 
 /*----------------------------------------------------------------
