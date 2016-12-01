@@ -402,6 +402,7 @@ Buttons
 
 .btn-home {
   position: relative;
+  display: block;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 1em;
